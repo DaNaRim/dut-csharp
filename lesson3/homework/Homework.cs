@@ -38,27 +38,17 @@ namespace ConsoleApp1.lesson3 {
 
         public static string getColor(Fruits fruit) {
             switch (fruit) {
-                case Fruits.PAPAYA: 
+                case Fruits.PAPAYA:
                 case Fruits.BANANA: return "yellow";
-                
+
                 case Fruits.APPLE:
                 case Fruits.PEACH:
                 case Fruits.CHERRY: return "red";
-                
+
                 case Fruits.KIVI: return "brown";
                 case Fruits.ORANGE: return "orange";
                 default: return "Invalid color";
             }
         }
-    }
-
-    public enum Fruits {
-        BANANA,
-        APPLE,
-        KIVI,
-        CHERRY,
-        PEACH,
-        PAPAYA,
-        ORANGE
     }
 }

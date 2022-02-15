@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp1.lesson3 {
+﻿using System;
+
+namespace ConsoleApp1.lesson3 {
     public class Project {
         private string name;
         private int daysInWork;
@@ -12,12 +14,12 @@
             this.isFinished = isFinished;
         }
 
-        public string WriteNameAndMark() {
-            return $"{nameof(name)}: {name}, {nameof(mark)}: {mark}";
+        public void WriteNameAndMark() {
+            Console.WriteLine($"{nameof(name)}: {name}, {nameof(mark)}: {mark}");
         }
-        
-        public string WriteNameAndStatus() {
-            return $"{nameof(name)}: {name}, {nameof(isFinished)}: {isFinished}";
+
+        public void WriteNameAndStatus() {
+            Console.WriteLine($"{nameof(name)}: {name}, {nameof(isFinished)}: {isFinished}");
         }
     }
 }
