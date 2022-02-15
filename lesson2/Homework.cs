@@ -2,10 +2,10 @@
 
 namespace ConsoleApp1.lesson2 {
     public class Homework {
-        public static void Main(string[] args) {
-            task2();
-            task3();
-        }
+        // public static void Main(string[] args) {
+        //     task2();
+        //     task3();
+        // }
 
         static void task2() {
             string[] words = new string[5];
