@@ -2,19 +2,19 @@
 
 namespace ConsoleApp1.lesson3 {
     public class Homework {
-        public static void Main(string[] args) {
-            Console.WriteLine(MultNums());
-            Console.WriteLine(OperationsWithNums());
-            Console.WriteLine(getColor(Fruits.KIVI));
-
-            Project project = new("BestName", 20, 100, true);
-            Project project2 = new("BestName2", 22, 92, false);
-
-            project.WriteNameAndMark();
-            project.WriteNameAndStatus();
-            project2.WriteNameAndMark();
-            project2.WriteNameAndStatus();
-        }
+        // public static void Main(string[] args) {
+        //     Console.WriteLine(MultNums());
+        //     Console.WriteLine(OperationsWithNums());
+        //     Console.WriteLine(getColor(Fruits.KIVI));
+        //
+        //     Project project = new("BestName", 20, 100, true);
+        //     Project project2 = new("BestName2", 22, 92, false);
+        //
+        //     project.WriteNameAndMark();
+        //     project.WriteNameAndStatus();
+        //     project2.WriteNameAndMark();
+        //     project2.WriteNameAndStatus();
+        // }
 
         public static int MultNums() {
             return Int32.Parse(Console.ReadLine())
