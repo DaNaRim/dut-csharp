@@ -2,14 +2,21 @@
 
 namespace ConsoleApp1.lesson4.homework {
     public class Demo {
-        public static void Main(string[] args) {
+        // public static void Main(string[] args) {
+        //     CompEx();
+        //     boardEx();
+        // }
+
+        static void CompEx() {
             Component component = new Component(
                 Console.ReadLine(),
                 Console.ReadLine(),
                 Int32.Parse(Console.ReadLine()));
             component.PrintAllFields();
             component.PrintNameAndCountPins();
+        }
 
+        static void boardEx() {
             string boardNameStr = Console.ReadLine();
             BoardName boardName;
             switch (boardNameStr) {
@@ -36,8 +43,9 @@ namespace ConsoleApp1.lesson4.homework {
                 Int32.Parse(Console.ReadLine()));
             board.PrintNameAndCountPins();
             board.PrintNameAndRankingPlace();
-            
-/*
+        }
+
+        /*
 SomeName
 test
 9
@@ -46,6 +54,5 @@ GIANT_BOARD
 11
 98
 */
-        }
     }
 }
