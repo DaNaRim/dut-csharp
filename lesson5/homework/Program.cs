@@ -2,11 +2,11 @@
 
 namespace ConsoleApp1.lesson5.homework {
     public class Program {
-        public static void Main() {
-            Task1();
-            Task2();
-            Task3();
-        }
+        // public static void Main() {
+        //     Task1();
+        //     Task2();
+        //     Task3();
+        // }
 
         private static void Task1() {
             string? name;
