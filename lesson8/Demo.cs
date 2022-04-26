@@ -2,12 +2,12 @@
 
 namespace ConsoleApp1.lesson8 {
     public class Demo {
-        public static void Main(string[] args) {
-            double fahrenheit = ConvertCelsiusToFahrenheit(Console.ReadLine());
-            Console.WriteLine(fahrenheit);
-
-            checkPasswordLength(Console.ReadLine());
-        }
+        // public static void Main(string[] args) {
+        //     double fahrenheit = ConvertCelsiusToFahrenheit(Console.ReadLine());
+        //     Console.WriteLine(fahrenheit);
+        //
+        //     checkPasswordLength(Console.ReadLine());
+        // }
 
         public static double ConvertCelsiusToFahrenheit(string temperature) {
             double celsius;
